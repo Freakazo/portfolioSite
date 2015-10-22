@@ -1,0 +1,143 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: arial, serif;
+    background-color: #DCE9FF;
+}
+
+.header {
+    width: 100%;
+    background-color: #003A86;
+    height: 90px;
+}
+
+.menuRow {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.menuRow ul {
+    margin: 0 auto;
+    width: 50%;
+    list-style: outside none none;
+}
+
+.menuRow li {
+    margin-top: 0;
+    height: 100%;
+    float: left;
+
+}
+
+.menuRow li:hover {
+    background-color: #002c5f;
+}
+
+.menuRow a {
+    color: white;
+    text-decoration: none;
+    line-height: 90px;
+    font-size: 1.4em;
+    display:inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.content {
+    min-width: 450px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1.4em;
+    box-shadow: #AAAAAA 0px 0px 5px;
+    background-color: #003A86;
+    font-family: arial, helvitica, serif;
+    font-size: 17px
+
+}
+
+.contentTitle {
+    text-align: right;
+    border-top-left-radius: 1.4em;
+    border-top-right-radius: 1.4em;
+    background-color: #4D7AE6;
+    color: #E1E1E1;
+}
+
+.name {
+    text-align: center;
+    width: 450px;
+    height: 100px;
+    margin: auto;
+    padding-bottom: 30px;
+    font-size: larger;
+}
+
+.name h2{
+    padding-top: 50px;
+}
+
+.contentRow {
+    display: table;
+    padding: 30px;
+    background-color: #A4B8FF;
+}
+
+.contentRow img {
+    width: 350px;
+}
+
+.contentColumn {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.about p {
+    padding-left: 20px;
+}
+
+.showcase img{
+    padding-top: 5px;
+    height: 181px;
+}
+
+.showcase {
+    font-size: 0.8em;
+    font-style: italic;
+    border-radius: 0.5em;
+    background-color: #A396D7;
+    text-align: center;
+    transition: box-shadow 0.15s, background-color 2s;
+    box-shadow: 0 0 2px #444;
+}
+
+.showcase:hover {
+    box-shadow: 1px 1px 5px #444;
+}
+
+.keyFacts {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.keyFacts a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.keyFacts a:hover {
+    font-size: 18px;
+    color: white;
+    text-decoration: underline;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #9e9c9f;
+    margin-bottom: 0;
+}
